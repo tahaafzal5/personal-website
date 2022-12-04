@@ -1,5 +1,16 @@
 #body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px 0px 50px;
+}
+
+#left-side {
+    width: fit-content;
+}
+
+#right-side {
+    width: fit-content;
 }
 
 #memoji {
