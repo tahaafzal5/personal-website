@@ -1,0 +1,110 @@
+#body {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 0px 0px 50px;
+}
+
+#left-side {
+    width: fit-content;
+}
+
+#right-side {
+    background-color: black;
+    color: white;
+    padding: 20px 20px 50px 20px;
+    width: fit-content;
+    margin-top: -50px;
+}
+
+#about {
+    color: gray;
+}
+
+#about-text {
+    color: white;
+}
+
+#memoji {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 100%;
+    width: 80px;
+}
+
+#profile-overview {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+}
+
+#name {
+    font-size: 2.2rem;
+    margin: 0px 0px 0px 0px;
+}
+
+#title {
+    font-size: 1.2rem;
+    margin: 0px 0px 0px 5px;
+    color: gray
+}
+
+#work-experiences,
+#educations,
+#honors-and-awards {
+    margin: 80px 2px 0px 0px;
+}
+
+#honors-and-awards {
+    /* so that when the right-side moves to the bottom, honors-and-awards isn't hidden underneath */
+    margin-bottom: 100px;
+}
+
+#position-company,
+#degree-institution {
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    gap: 5px;
+}
+
+#honor-or-award {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#position,
+#degree {
+    font-weight: 900;
+    margin: 0px 0px 0px;
+}
+
+#company,
+#institution {
+    color: gray;
+    margin: 0px 0px 0px;
+}
+
+#date,
+#gpa {
+    color: gray;
+    margin: 5px 0px 0px 0px;
+}
+
+#description {
+    max-width: 90%;
+}
+
+#description-points {
+    line-height: 1.35;
+}
