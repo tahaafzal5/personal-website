@@ -45,27 +45,39 @@
     color: gray
 }
 
-#work-experiences {
-    margin: 100px 0px 0px 0px;
+#work-experiences,
+#educations,
+#honors-and-awards {
+    margin: 80px 0px 0px 0px;
 }
 
-#position-company {
+#position-company,
+#degree-institution {
     margin: 30px 0px 0px 0px;
     display: flex;
     gap: 5px;
 }
 
-#position {
+#honor-or-award {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#position,
+#degree {
     font-weight: 900;
     margin: 0px 0px 0px;
 }
 
-#company {
+#company,
+#institution {
     color: gray;
     margin: 0px 0px 0px;
 }
 
-#date {
+#date,
+#gpa {
     color: gray;
     margin: 5px 0px 0px 0px;
 }
