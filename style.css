@@ -3,8 +3,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 50px 0px 0px 50px;
+}
+
+@media (max-width: 850px) {
+    #body {
+        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+
+    #right-side {
+        /* stretch all the way */
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 #left-side {
@@ -15,7 +27,6 @@
     background-color: black;
     color: white;
     padding: 20px 20px 50px 20px;
-    width: fit-content;
     margin-top: -50px;
 }
 
