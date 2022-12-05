@@ -48,7 +48,12 @@
 #work-experiences,
 #educations,
 #honors-and-awards {
-    margin: 80px 0px 0px 0px;
+    margin: 80px 2px 0px 0px;
+}
+
+#honors-and-awards {
+    /* so that when the right-side moves to the bottom, honors-and-awards isn't hidden underneath */
+    margin-bottom: 100px;
 }
 
 #position-company,
@@ -61,7 +66,7 @@
 #honor-or-award {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
 }
 
 #position,
