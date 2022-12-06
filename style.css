@@ -32,14 +32,23 @@
 
 #about,
 #advanced-skills,
-#intermediate-skills {
+#intermediate-skills,
+#contact-info {
     color: gray;
     margin: 50px 0px 0px 0px;
 }
 
 #about-text,
-#skills-points {
+#skills-points,
+#email,
+#phone {
     color: white;
+}
+
+#email,
+#phone {
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
 }
 
 /* BUG: right-side won't wrap properly based on screen size with more than 2 columns */
