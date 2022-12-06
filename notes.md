@@ -9,7 +9,8 @@
     - on phone screen sizes
         - show website to fit the screen
         - right side should take entire space
-- website should reload on the top always
+- website should reload on the top always (on phones esp.)
+- hide page source in browser
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
@@ -19,6 +20,8 @@
             - memoji
             - name
             - title
+    - on phones
+        - right-side's box takes the entire available screen but also has a consistent margin on its right
 - sticky top navbar with links to
     - welcome
         - default
@@ -35,3 +38,14 @@
     - contents might stay the same & it will be visible on all subpages OR
     - remove all together & find a new home for its current contents OR
     - contents stay the same for the welcome page but change sligthly for the other subpages
+    - break right-side into top & bottom sections
+        - top
+            - profile-overview
+            - about
+            - skills
+        - bottom
+            - contact-info
+            - logos
+- convert to a React app
+- pull contents from a db instead of hardcoding
+- transform the welcome page into a live "blog"
