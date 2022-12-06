@@ -5,6 +5,10 @@
 - add on the left-side
     - projects
     - leadership-and-affiliations
+- media queries
+    - on phone screen sizes
+        - show website to fit the screen
+        - right side should take entire space
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
