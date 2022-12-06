@@ -5,8 +5,6 @@
 - add on the left-side
     - projects
     - leadership-and-affiliations
-- add a bottom bar with copyright info & last updated for fun
-
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
