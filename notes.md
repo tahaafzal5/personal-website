@@ -2,19 +2,10 @@
 
 ## finish up:
 - add a very light-blue-ish background like [this website](https://resume.framer.website/?via=onepagelove).
-- add on the right-side
-    - skills
-    - contact info
-    - links/logos to
-        - github
-        - linkedin
-        - download resume pdf
 - add on the left-side
     - projects
     - leadership-and-affiliations
 - add a bottom bar with copyright info & last updated for fun
-- when the right-side moves to the bottom:
-    - right-side's width is 100% but has a margin on the right as the body does
 
 
 ## things to do/improve:

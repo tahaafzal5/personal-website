@@ -3,8 +3,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 50px 0px 0px 50px;
+}
+
+@media (max-width: 850px) {
+    #body {
+        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+
+    #right-side {
+        /* stretch all the way */
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 #left-side {
@@ -15,16 +27,40 @@
     background-color: black;
     color: white;
     padding: 20px 20px 50px 20px;
-    width: fit-content;
     margin-top: -50px;
 }
 
-#about {
+#about,
+#advanced-skills,
+#intermediate-skills,
+#contact-info,
+#logos {
     color: gray;
+    margin: 50px 0px 0px 0px;
 }
 
-#about-text {
+#about-text,
+#skills-points,
+#email,
+#phone {
     color: white;
+}
+
+#email,
+#phone {
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
+}
+
+#github-logo,
+#linkedin-logo {
+    max-width: 40px;
+    margin: 0px 10px 0px 0px;
+}
+
+/* BUG: right-side won't wrap properly based on screen size with more than 2 columns */
+#skills-points {
+    columns: 2;
 }
 
 #memoji {
@@ -62,7 +98,7 @@
 #work-experiences,
 #educations,
 #honors-and-awards {
-    margin: 80px 2px 0px 0px;
+    margin: 80px 30px 0px 0px;
 }
 
 #honors-and-awards {
@@ -77,10 +113,10 @@
     gap: 5px;
 }
 
-#honor-or-award {
+#honor-or-award-points {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
 }
 
 #position,
