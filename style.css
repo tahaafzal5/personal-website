@@ -30,12 +30,21 @@
     margin-top: -50px;
 }
 
-#about {
+#about,
+#advanced-skills,
+#intermediate-skills {
     color: gray;
+    margin: 50px 0px 0px 0px;
 }
 
-#about-text {
+#about-text,
+#skills-points {
     color: white;
+}
+
+/* BUG: right-side won't wrap properly based on screen size with more than 2 columns */
+#skills-points {
+    columns: 2;
 }
 
 #memoji {

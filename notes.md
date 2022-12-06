@@ -3,7 +3,6 @@
 ## finish up:
 - add a very light-blue-ish background like [this website](https://resume.framer.website/?via=onepagelove).
 - add on the right-side
-    - skills
     - contact info
     - links/logos to
         - github
