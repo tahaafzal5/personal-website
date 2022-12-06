@@ -82,7 +82,7 @@
 #work-experiences,
 #educations,
 #honors-and-awards {
-    margin: 80px 10px 0px 0px;
+    margin: 80px 30px 0px 0px;
 }
 
 #honors-and-awards {
@@ -97,10 +97,10 @@
     gap: 5px;
 }
 
-#honor-or-award {
+#honor-or-award-points {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
 }
 
 #position,
