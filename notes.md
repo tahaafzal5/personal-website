@@ -2,11 +2,6 @@
 
 ## finish up:
 - add a very light-blue-ish background like [this website](https://resume.framer.website/?via=onepagelove).
-- add on the right-side
-    - links/logos to
-        - github
-        - linkedin
-        - download resume pdf
 - add on the left-side
     - projects
     - leadership-and-affiliations

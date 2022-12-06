@@ -33,7 +33,8 @@
 #about,
 #advanced-skills,
 #intermediate-skills,
-#contact-info {
+#contact-info,
+#logos {
     color: gray;
     margin: 50px 0px 0px 0px;
 }
@@ -49,6 +50,12 @@
 #phone {
     margin: 20px 0px 0px 0px;
     text-decoration: none;
+}
+
+#github-logo,
+#linkedin-logo {
+    max-width: 40px;
+    margin: 0px 10px 0px 0px;
 }
 
 /* BUG: right-side won't wrap properly based on screen size with more than 2 columns */
