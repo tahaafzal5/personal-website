@@ -9,13 +9,13 @@
 @media (max-width: 850px) {
     #body {
         flex-wrap: wrap;
-        margin-right: 50px;
     }
 
     #right-side {
         /* stretch all the way */
         width: 100%;
-        margin-bottom: 30px;
+        /* value for margin-left here would be: negative of (body.margin-left minus desired value) */
+        margin: 0px 10px 10px -40px;
     }
 }
 
@@ -53,7 +53,8 @@
 }
 
 #github-logo,
-#linkedin-logo {
+#linkedin-logo,
+#download-logo {
     max-width: 40px;
     margin: 0px 10px 0px 0px;
 }
