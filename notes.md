@@ -5,18 +5,17 @@
 - add on the left-side
     - projects
     - leadership-and-affiliations
-- hide page source in browser
+- hide page source in browser or disable right-click [link](https://stackoverflow.com/questions/25228476/how-to-hide-the-source-code-of-a-html-page)
+- breakdown each section into its own page
+- correct about section
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
     - add a media query so that
-        - all the text from the left side takes all available space
         - profile-overview is in the center in this layout
             - memoji
             - name
             - title
-    - on phones
-        - right-side's box takes the entire available screen but also has a consistent margin on its right
 - sticky top navbar with links to
     - welcome
         - default
@@ -30,17 +29,23 @@
         - recently heard
             - podcasts
 - future of the right-side
-    - contents might stay the same & it will be visible on all subpages OR
-    - remove all together & find a new home for its current contents OR
-    - contents stay the same for the welcome page but change sligthly for the other subpages
-    - break right-side into top & bottom sections
-        - top
-            - profile-overview
-            - about
-            - skills
-        - bottom
-            - contact-info
-            - logos
+    - options:
+        - contents might stay the same & it will be visible on all subpages
+        - remove all together & find a new home for its current contents
+        - contents stay the same for the welcome page but change sligthly for the other subpages
+        - break right-side into top & bottom sections
+            - top
+                - profile-overview
+                - about
+                - skills
+            - bottom
+                - contact-info
+                - logos
+- transform the welcome page into a live "blog"
 - convert to a React app
 - pull contents from a db instead of hardcoding
-- transform the welcome page into a live "blog"
+- add cool things on a new cool tab
+    - CashApp or Apple Pay for donations/support
+    - integration with cool APIs:
+        - ChatGPT
+        - etc
