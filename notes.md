@@ -5,10 +5,6 @@
 - add on the left-side
     - projects
     - leadership-and-affiliations
-- media queries
-    - on phone screen sizes
-        - show website to fit the screen
-        - right side should take entire space
 - hide page source in browser
 
 ## things to do/improve:
