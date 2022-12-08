@@ -9,7 +9,6 @@
     - on phone screen sizes
         - show website to fit the screen
         - right side should take entire space
-- website should reload on the top always (on phones esp.)
 - hide page source in browser
 
 ## things to do/improve:
