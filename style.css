@@ -47,9 +47,11 @@
 }
 
 #email,
-#phone {
+#phone,
+#about-text a {
     margin: 20px 0px 0px 0px;
     text-decoration: none;
+    color: white;
 }
 
 #github-logo,
