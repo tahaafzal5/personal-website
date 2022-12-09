@@ -152,6 +152,13 @@
     max-width: 90%;
 }
 
+#footer-text {
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    margin: 50px 0px 0px 0px;
+}
+
 #description-points {
     line-height: 1.35;
 }
