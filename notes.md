@@ -2,12 +2,10 @@
 
 ## finish up:
 - add a very light-blue-ish background like [this website](https://resume.framer.website/?via=onepagelove).
-- add on the left-side
-    - projects
-    - leadership-and-affiliations
 - hide page source in browser or disable right-click [link](https://stackoverflow.com/questions/25228476/how-to-hide-the-source-code-of-a-html-page)
 - breakdown each section into its own page
-- correct about section
+- make ids into classes
+- make proper use of ids
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
