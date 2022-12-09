@@ -1,12 +1,14 @@
 # Notes
 
 ## finish up:
-- add a very light-blue-ish background like [this website](https://resume.framer.website/?via=onepagelove).
-- hide page source in browser or disable right-click [link](https://stackoverflow.com/questions/25228476/how-to-hide-the-source-code-of-a-html-page)
 - breakdown each section into its own page
 - make ids into classes
 - make proper use of ids
 - make sure left-side takes all space on the left
+    - could be solved with media queries??
+- add separation between sections
+- add logs for browser console
+- add deploy branch for github
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
