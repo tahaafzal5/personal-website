@@ -6,6 +6,8 @@
 - breakdown each section into its own page
 - make ids into classes
 - make proper use of ids
+- add footer section
+- make sure left-side takes all space on the left
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
