@@ -6,16 +6,10 @@
 - add logs for browser console
 
 ## things to do/improve:
-- when the right-side moves to the bottom:
-    - add a media query so that
-        - profile-overview is in the center in this layout
-            - memoji
-            - name
-            - title
 - sticky top navbar with links to
     - welcome
         - default
-        - like a welcome, get to know me, and fun page
+        - like a welcome, get to know me, and fun page (a "blog")
         - this page will continue to have the profile-overiew
     - resume (move all my resume section there)
     - media
@@ -24,6 +18,11 @@
             - articles
         - recently heard
             - podcasts
+    - cool tab
+        - CashApp or Apple Pay for donations/support
+        - integration with cool APIs:
+            - ChatGPT
+            - etc
 - future of the right-side
     - options:
         - contents might stay the same & it will be visible on all subpages
@@ -37,11 +36,7 @@
             - bottom
                 - contact-info
                 - logos
-- transform the welcome page into a live "blog"
 - convert to a React app
 - pull contents from a db instead of hardcoding
-- add cool things on a new cool tab
-    - CashApp or Apple Pay for donations/support
-    - integration with cool APIs:
-        - ChatGPT
-        - etc
+- landscape mode fix
+    - right-side won't go all the way to the right. Fix it.
