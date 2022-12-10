@@ -74,7 +74,7 @@
     width: 80px;
 }
 
-#profile-overview {
+.profile-overview {
     display: flex;
     flex-direction: row;
     gap: 10px;
