@@ -4,7 +4,6 @@
 - breakdown each section into its own page
 - add separation between sections
 - add logs for browser console
-- add deploy branch for github
 
 ## things to do/improve:
 - when the right-side moves to the bottom:
