@@ -2,8 +2,6 @@
 
 ## finish up:
 - breakdown each section into its own page
-- make sure left-side takes all space on the left
-    - could be solved with media queries??
 - add separation between sections
 - add logs for browser console
 - add deploy branch for github
