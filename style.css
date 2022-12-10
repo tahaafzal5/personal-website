@@ -48,7 +48,8 @@
 
 .email,
 .phone,
-.about-text a {
+.about-text a,
+.logo {
     margin: 20px 0px 0px 0px;
     text-decoration: none;
     color: white;
