@@ -1,4 +1,4 @@
-#body {
+.body {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 850px) {
-    #body {
+    .body {
         flex-wrap: wrap;
     }
 
