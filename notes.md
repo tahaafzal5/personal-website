@@ -2,8 +2,6 @@
 
 ## finish up:
 - breakdown each section into its own page
-- make ids into classes
-- make proper use of ids
 - make sure left-side takes all space on the left
     - could be solved with media queries??
 - add separation between sections
