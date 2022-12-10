@@ -2,7 +2,6 @@
 
 ## finish up:
 - breakdown each section into its own page
-- add separation between sections
 - add logs for browser console
 
 ## things to do/improve:
