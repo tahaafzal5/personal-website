@@ -19,6 +19,30 @@
     }
 }
 
+/* doing this in a media query to avoid messing things up on devices without actual hover (e.g. mobile phones) */
+@media (hover: hover) {
+    .github-logo:hover {
+        content: url(/assets/img/github-logo-hover.jpg);
+        transform: scale(1.1);
+    }
+
+    .linkedin-logo:hover {
+        content: url(/assets/img/linkedin-logo-hover.jpg);
+        transform: scale(1.1);
+    }
+
+    .download-logo:hover {
+        content: url(/assets/img/download-logo-hover.jpg);
+        transform: scale(1.1);
+    }
+
+    .email:hover,
+    .phone:hover,
+    .about-text a:hover {
+        color: lightgray;
+    }
+}
+
 .right-side {
     background-color: black;
     color: white;
