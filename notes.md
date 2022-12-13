@@ -1,11 +1,13 @@
 # Notes
 
+# This is me reading & implementing: /Users/tahaafzal/Documents/Augustana University/Courses/9. Spring 2021/COSC 225-A WEB Programming/26. jQuery.pdf
+
 ## finish up:
 - breakdown each section into its own page
 - add logs for browser console
 
 ## things to do/improve:
-- sticky top navbar with links to
+- sticky top navbar with links gto
     - welcome
         - default
         - like a welcome, get to know me, and fun page (a "blog")
