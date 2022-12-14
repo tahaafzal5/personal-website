@@ -1,5 +1,9 @@
-.body {
+.body-index,
+.body-404 {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+.body-index {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,7 +11,7 @@
 }
 
 @media (max-width: 850px) {
-    .body {
+    .body-index {
         flex-wrap: wrap;
     }
 
@@ -193,4 +197,12 @@
 
 .description-points {
     line-height: 1.35;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.body-404 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 0px 50px;
 }
