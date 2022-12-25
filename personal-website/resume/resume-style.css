@@ -1,17 +1,14 @@
-.body-index,
+.body-resume,
 .body-404 {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
 
-.body-index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 50px 0px 0px 50px;
+.resume {
+    flex-direction: column;
 }
 
 @media (max-width: 850px) {
-    .body-index {
+    .body-resume {
         flex-wrap: wrap;
     }
 
